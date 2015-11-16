@@ -111,8 +111,9 @@ public class DskFilePage extends Page{
 		
 		//the console
 		JPanel consolePanel = new JPanel();
-		consolePanel.setLayout(new GridBagLayout());
-		console = new GraphicsConsole(consolePanel, new Color(0,0,0), new Color(0,255,0), new Dimension(780, 350)); 
+		//consolePanel.setLayout(new GridBagLayout());
+		console = new GraphicsConsole(consolePanel, new Color(0,0,0), new Color(0,255,0), new Dimension(700, 300)); 
+		//consolePanel.add(console);
 		gc.gridx = 0;
 		gc.gridy = 1;
 		gc.gridwidth = 2;
